@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class Game extends StatelessWidget {
   const Game({Key? key}) : super(key: key);
-final ProductInfo product;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
