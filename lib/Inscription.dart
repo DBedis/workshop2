@@ -52,30 +52,36 @@ class Inscription extends StatelessWidget {
                 ),
                 //JAWNA BEHI MA DHO3NECH
                 //TAWA EL FLESS
-                /*
-                FlatButton(
-                  onPressed: () {  },
-                  color: Colors.blueAccent,
-                  child: Text('S\'inscrire'),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    FlatButton(
+                      onPressed: () {  },
+                      color: Colors.blueAccent,
+                      child: Text('S\'inscrire'),
 
 
-                ),
-                FlatButton(
-                  onPressed: () {  },
-                  color: Colors.blueAccent,
-                  child: Text('Annuler'),
+                    ),
+                    FlatButton(
+                      onPressed: () {  },
+                      color: Colors.blueAccent,
+                      child: Text('Annuler'),
 
 
-                ),*/
+                    ),
+                  ],
+                )
+
                 //FLESS JAWHOM BEHI ?
-                ListTile(
+                /*ListTile(
                   title: Row(
                     children: <Widget>[
                       Expanded(child: RaisedButton(onPressed: () {},child: Text("S'inscrire"),color: Colors.blueAccent,textColor: Colors.white,)),
                       Expanded(child: RaisedButton(onPressed: () {},child: Text("Annuler"),color: Colors.blueAccent,textColor: Colors.white,)),
                     ],
                   ),
-                )
+                )*/
 
 
               ],
